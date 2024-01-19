@@ -5,7 +5,7 @@
 </div>
 
 		<nav>
-			<ul>
+			<ul class="nav">
                 @foreach($navMenu as $link)
 				<li>
 					<a href="#">
