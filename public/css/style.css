@@ -140,6 +140,36 @@ span {
     font-size: 0.7em;
 }
 
+/* SECTION 2 */
+.sectionBg {
+    background-color: #0082F9;
+}
+
+.section {
+    color: white;
+    background-color: #0082F9;
+    height: 15vh;
+    padding: 0 4em;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: calc(100% / 5);
+}
+
+.product a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.other {
+    height: 3.5em;
+}
+
 /* CLASSI ATOMICHE */
 
 .white {
