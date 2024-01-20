@@ -39,10 +39,9 @@
                     <div class="px1">
                         {{ $item["text"] }}
                     </div>
-            </a> 
-		</div>
-				@endforeach
-            
+            	</a> 
+			</div>
+			@endforeach    
         </div>
     </div>
 @endsection

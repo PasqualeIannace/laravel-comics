@@ -170,6 +170,85 @@ span {
     height: 3.5em;
 }
 
+/* FOOTER */
+.containerBg {
+    background-image: url(/footer-bg.jpg);
+}
+
+.container {
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+    height: 25em;
+}
+
+.link li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.link li a:hover {
+    color: white;
+}
+
+.link li {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    padding: 3em 0;
+    margin-right: 1.5em;
+}
+
+.link h3 {
+    padding-bottom: 1em;
+}
+
+.bgLogo img {
+    object-fit: cover;
+    height: 25em;
+    width: 35em;
+}
+
+/* section 2 */
+.secondBg {
+    background: #303030;
+}
+
+.secondContainer {
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.socials h3 {
+    color: #0082F9;
+    padding: 0 1em;
+}
+
+.socialBtn {
+    padding: 1.5em 0.5em;
+}
+
+.signBtn {
+    color: white;
+    border: 2px solid #0082F9;
+    background: transparent;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
 /* CLASSI ATOMICHE */
 
 .white {
